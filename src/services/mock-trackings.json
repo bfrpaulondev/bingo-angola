@@ -1,0 +1,71 @@
+[
+  {
+    "code": "BR123456789PT",
+    "status": "delivered",
+    "recipient": "João Silva",
+    "history": [
+      {
+        "status": "pending",
+        "date": "2025-06-11T10:21:00Z"
+      },
+      {
+        "status": "transit",
+        "date": "2025-06-12T16:04:00Z"
+      },
+      {
+        "status": "delivered",
+        "date": "2025-06-13T08:41:00Z"
+      }
+    ]
+  },
+  {
+    "code": "BR987654321PT",
+    "status": "contact",
+    "recipient": "Amanda Costa",
+    "history": [
+      {
+        "status": "pending",
+        "date": "2025-06-10T09:09:00Z"
+      },
+      {
+        "status": "transit",
+        "date": "2025-06-11T17:35:00Z"
+      },
+      {
+        "status": "contact",
+        "date": "2025-06-13T19:42:00Z"
+      }
+    ]
+  },
+  {
+  "code": "BR112233445PT",
+  "status": "delayed",
+  "recipient": "Carlos Pereira",
+  "history": [
+    {
+      "status": "pending",
+      "date": "2025-06-09T08:15:00Z"
+    },
+    {
+      "status": "transit",
+      "date": "2025-06-10T14:20:00Z"
+    },
+    {
+      "status": "delayed",
+      "date": "2025-06-12T11:30:00Z"
+    }
+  ]
+},
+{
+  "code": "BR556677889PT",
+  "status": "pending",
+  "recipient": "Fernanda Lima",
+  "history": [
+    {
+      "status": "pending",
+      "date": "2025-06-08T07:45:00Z"
+    }
+  ]
+}
+
+]
