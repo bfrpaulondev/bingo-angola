@@ -1,10 +1,15 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App.jsx';
+import { ThemeProvider, CssBaseline } from '@mui/material';
+import { theme } from './theme';
+import { LanguageProvider } from '@/contexts/LanguageContext';
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <ThemeProvider theme={theme}>
+    <CssBaseline />   
+    <LanguageProvider>
+      <App />
+    </LanguageProvider>
+  </ThemeProvider>
+);
